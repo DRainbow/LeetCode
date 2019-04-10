@@ -2,6 +2,7 @@ import com.leetcode.linked_list.ReverseList;
 import com.leetcode.linked_list.SwapNodesInPairs;
 import com.leetcode.linked_list.model.ListNode;
 import com.leetcode.stack.ImplementQueueUsingStacks;
+import com.leetcode.stack.ImplementStackUsingQueues;
 import com.leetcode.string.ValidParentheses;
 
 public class Main {
@@ -26,11 +27,18 @@ public class Main {
 
 //        new ValidParentheses().solution2("]");
 
-        ImplementQueueUsingStacks queue = new ImplementQueueUsingStacks();
-        queue.push(1);
-        queue.push(2);
-        System.out.println(queue.peek());
-        System.out.println(queue.pop());
-        System.out.println(queue.empty());
+//        ImplementQueueUsingStacks queue = new ImplementQueueUsingStacks();
+//        queue.push(1);
+//        queue.push(2);
+//        System.out.println(queue.peek());
+//        System.out.println(queue.pop());
+//        System.out.println(queue.empty());
+
+        ImplementStackUsingQueues stack = new ImplementStackUsingQueues();
+        stack.push(1);
+        stack.push(2);
+        System.out.println(stack.top());
+        System.out.println(stack.pop());
+        System.out.println(stack.empty());
     }
 }
