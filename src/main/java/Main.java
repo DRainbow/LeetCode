@@ -1,4 +1,5 @@
 import com.leetcode.heap.KthLargestElementInAStream;
+import com.leetcode.heap.SlidingWindowMaximum;
 import com.leetcode.linked_list.ReverseList;
 import com.leetcode.linked_list.SwapNodesInPairs;
 import com.leetcode.linked_list.model.ListNode;
@@ -42,13 +43,15 @@ public class Main {
 //        System.out.println(stack.pop());
 //        System.out.println(stack.empty());
 
-        int k = 3;
-        int[] arr = new int[]{4, 5, 8, 2};
-        KthLargestElementInAStream kthLargest = new KthLargestElementInAStream(3, arr);
-        System.out.println(kthLargest.add2(3));
-        System.out.println(kthLargest.add2(5));
-        System.out.println(kthLargest.add2(10));
-        System.out.println(kthLargest.add2(9));
-        System.out.println(kthLargest.add2(4));
+//        int k = 3;
+//        int[] arr = new int[]{4, 5, 8, 2};
+//        KthLargestElementInAStream kthLargest = new KthLargestElementInAStream(3, arr);
+//        System.out.println(kthLargest.add2(3));
+//        System.out.println(kthLargest.add2(5));
+//        System.out.println(kthLargest.add2(10));
+//        System.out.println(kthLargest.add2(9));
+//        System.out.println(kthLargest.add2(4));
+
+        new SlidingWindowMaximum().maxSlidingWindow(new int[]{1, 3, -1, -3, 5, 3, 6, 7}, 3);
     }
 }
