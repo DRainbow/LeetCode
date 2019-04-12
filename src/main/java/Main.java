@@ -1,3 +1,4 @@
+import com.leetcode.hash_table.ValidAnagram;
 import com.leetcode.heap.KthLargestElementInAStream;
 import com.leetcode.heap.SlidingWindowMaximum;
 import com.leetcode.linked_list.ReverseList;
@@ -52,6 +53,8 @@ public class Main {
 //        System.out.println(kthLargest.add2(9));
 //        System.out.println(kthLargest.add2(4));
 
-        new SlidingWindowMaximum().maxSlidingWindow(new int[]{1, 3, -1, -3, 5, 3, 6, 7}, 3);
+//        new SlidingWindowMaximum().maxSlidingWindow(new int[]{1, 3, -1, -3, 5, 3, 6, 7}, 3);
+
+        System.out.println(new ValidAnagram().isAnagram2("anagram", "nagaram"));
     }
 }
